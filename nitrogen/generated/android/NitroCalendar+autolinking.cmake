@@ -27,9 +27,11 @@ target_sources(
   # Autolinking Setup
   ../nitrogen/generated/android/NitroCalendarOnLoad.cpp
   # Shared Nitrogen C++ sources
-  ../nitrogen/generated/shared/c++/HybridMathSpec.cpp
+  ../nitrogen/generated/shared/c++/HybridCalendarSpec.cpp
+  ../nitrogen/generated/shared/c++/views/HybridCalendarComponent.cpp
   # Android-specific Nitrogen C++ sources
-  ../nitrogen/generated/android/c++/JHybridMathSpec.cpp
+  ../nitrogen/generated/android/c++/JHybridCalendarSpec.cpp
+  ../nitrogen/generated/android/c++/views/JHybridCalendarStateUpdater.cpp
 )
 
 # Define a flag to check if we are building properly

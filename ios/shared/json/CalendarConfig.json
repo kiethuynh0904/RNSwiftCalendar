@@ -1,0 +1,12 @@
+{
+  "uiViewClassName": "Calendar",
+  "supportsRawText": false,
+  "bubblingEventTypes": {},
+  "directEventTypes": {},
+  "validAttributes": {
+    "colorScheme": true,
+    "isBlue": true,
+    "someCallback": true,
+    "hybridRef": true
+  }
+}

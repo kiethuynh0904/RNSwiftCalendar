@@ -1,12 +1,17 @@
 {
-    "$schema": "https://nitro.margelo.com/nitro.schema.json",
-    "cxxNamespace": ["calendar"],
-    "ios": {
-      "iosModuleName": "NitroCalendar"
-    },
-    "android": {
-      "androidNamespace": ["calendar"],
-      "androidCxxLibName": "NitroCalendar"
-    },
-    "autolinking": {}
+  "$schema": "https://nitro.margelo.com/nitro.schema.json",
+  "cxxNamespace": ["calendar"],
+  "ios": {
+    "iosModuleName": "NitroCalendar"
+  },
+  "android": {
+    "androidNamespace": ["calendar"],
+    "androidCxxLibName": "NitroCalendar"
+  },
+  "autolinking": {
+    "Calendar": {
+      "swift": "HybridCalendar",
+      "kotlin": "HybridCalendar"
+    }
   }
+}

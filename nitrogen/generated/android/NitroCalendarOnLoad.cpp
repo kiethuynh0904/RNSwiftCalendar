@@ -15,7 +15,11 @@
 #include <fbjni/fbjni.h>
 #include <NitroModules/HybridObjectRegistry.hpp>
 
-#include "JHybridMathSpec.hpp"
+#include "JHybridCalendarSpec.hpp"
+#include "JFunc_void.hpp"
+#include "views/JHybridCalendarStateUpdater.hpp"
+#include <NitroModules/JNISharedPtr.hpp>
+#include <NitroModules/DefaultConstructableObject.hpp>
 
 namespace margelo::nitro::calendar {
 
@@ -26,10 +30,20 @@ int initialize(JavaVM* vm) {
 
   return facebook::jni::initialize(vm, [] {
     // Register native JNI methods
-    margelo::nitro::calendar::JHybridMathSpec::registerNatives();
+    margelo::nitro::calendar::JHybridCalendarSpec::registerNatives();
+    margelo::nitro::calendar::JFunc_void_cxx::registerNatives();
+    margelo::nitro::calendar::views::JHybridCalendarStateUpdater::registerNatives();
 
     // Register Nitro Hybrid Objects
-    
+    HybridObjectRegistry::registerHybridObjectConstructor(
+      "Calendar",
+      []() -> std::shared_ptr<HybridObject> {
+        static DefaultConstructableObject<JHybridCalendarSpec::javaobject> object("com/margelo/nitro/calendar/HybridCalendar");
+        auto instance = object.create();
+        auto globalRef = jni::make_global(instance);
+        return JNISharedPtr::make_shared_from_jni<JHybridCalendarSpec>(globalRef);
+      }
+    );
   });
 }
 

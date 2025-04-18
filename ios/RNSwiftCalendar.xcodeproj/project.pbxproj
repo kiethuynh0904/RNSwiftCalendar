@@ -9,6 +9,20 @@
 /* Begin PBXBuildFile section */
 		0C80B921A6F3F58F76C31292 /* libPods-RNSwiftCalendar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-RNSwiftCalendar.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		45058B8D2DB1F554001CE5E9 /* HybridCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45058B8C2DB1F554001CE5E9 /* HybridCalendar.swift */; };
+		45058BA92DB1FCBE001CE5E9 /* NitroCalendar+autolinking.rb in Resources */ = {isa = PBXBuildFile; fileRef = 45058B9B2DB1FCBE001CE5E9 /* NitroCalendar+autolinking.rb */; };
+		45058BAA2DB1FCBE001CE5E9 /* CalendarConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = 45058BA62DB1FCBE001CE5E9 /* CalendarConfig.json */; };
+		45058BAB2DB1FCBE001CE5E9 /* HybridCalendarSpecSwift.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45058B912DB1FCBE001CE5E9 /* HybridCalendarSpecSwift.cpp */; };
+		45058BAC2DB1FCBE001CE5E9 /* NitroCalendar-Swift-Cxx-Bridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45058B992DB1FCBE001CE5E9 /* NitroCalendar-Swift-Cxx-Bridge.cpp */; };
+		45058BAD2DB1FCBE001CE5E9 /* HybridCalendarComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45058BA02DB1FCBE001CE5E9 /* HybridCalendarComponent.cpp */; };
+		45058BAE2DB1FCBE001CE5E9 /* HybridCalendarSpec_cxx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45058B962DB1FCBE001CE5E9 /* HybridCalendarSpec_cxx.swift */; };
+		45058BAF2DB1FCBE001CE5E9 /* HybridCalendarComponent.mm in Sources */ = {isa = PBXBuildFile; fileRef = 45058B8E2DB1FCBE001CE5E9 /* HybridCalendarComponent.mm */; };
+		45058BB02DB1FCBE001CE5E9 /* NitroCalendarAutolinking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45058B9D2DB1FCBE001CE5E9 /* NitroCalendarAutolinking.swift */; };
+		45058BB12DB1FCBE001CE5E9 /* HybridCalendarSpec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45058BA42DB1FCBE001CE5E9 /* HybridCalendarSpec.cpp */; };
+		45058BB22DB1FCBE001CE5E9 /* Func_void.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45058B942DB1FCBE001CE5E9 /* Func_void.swift */; };
+		45058BB32DB1FCBE001CE5E9 /* HybridCalendarSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45058B952DB1FCBE001CE5E9 /* HybridCalendarSpec.swift */; };
+		45058BB42DB1FCBE001CE5E9 /* NitroCalendarAutolinking.mm in Sources */ = {isa = PBXBuildFile; fileRef = 45058B9C2DB1FCBE001CE5E9 /* NitroCalendarAutolinking.mm */; };
+		45058BB52DB1FCBE001CE5E9 /* ColorScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45058B932DB1FCBE001CE5E9 /* ColorScheme.swift */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		C8243C88DDB129D085790AA1 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
@@ -20,6 +34,26 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RNSwiftCalendar/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = RNSwiftCalendar/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-RNSwiftCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNSwiftCalendar.debug.xcconfig"; path = "Target Support Files/Pods-RNSwiftCalendar/Pods-RNSwiftCalendar.debug.xcconfig"; sourceTree = "<group>"; };
+		45058B8C2DB1F554001CE5E9 /* HybridCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HybridCalendar.swift; sourceTree = "<group>"; };
+		45058B8E2DB1FCBE001CE5E9 /* HybridCalendarComponent.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = HybridCalendarComponent.mm; sourceTree = "<group>"; };
+		45058B902DB1FCBE001CE5E9 /* HybridCalendarSpecSwift.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HybridCalendarSpecSwift.hpp; sourceTree = "<group>"; };
+		45058B912DB1FCBE001CE5E9 /* HybridCalendarSpecSwift.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HybridCalendarSpecSwift.cpp; sourceTree = "<group>"; };
+		45058B932DB1FCBE001CE5E9 /* ColorScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorScheme.swift; sourceTree = "<group>"; };
+		45058B942DB1FCBE001CE5E9 /* Func_void.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Func_void.swift; sourceTree = "<group>"; };
+		45058B952DB1FCBE001CE5E9 /* HybridCalendarSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HybridCalendarSpec.swift; sourceTree = "<group>"; };
+		45058B962DB1FCBE001CE5E9 /* HybridCalendarSpec_cxx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HybridCalendarSpec_cxx.swift; sourceTree = "<group>"; };
+		45058B982DB1FCBE001CE5E9 /* NitroCalendar-Swift-Cxx-Bridge.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "NitroCalendar-Swift-Cxx-Bridge.hpp"; sourceTree = "<group>"; };
+		45058B992DB1FCBE001CE5E9 /* NitroCalendar-Swift-Cxx-Bridge.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "NitroCalendar-Swift-Cxx-Bridge.cpp"; sourceTree = "<group>"; };
+		45058B9A2DB1FCBE001CE5E9 /* NitroCalendar-Swift-Cxx-Umbrella.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "NitroCalendar-Swift-Cxx-Umbrella.hpp"; sourceTree = "<group>"; };
+		45058B9B2DB1FCBE001CE5E9 /* NitroCalendar+autolinking.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = "NitroCalendar+autolinking.rb"; sourceTree = "<group>"; };
+		45058B9C2DB1FCBE001CE5E9 /* NitroCalendarAutolinking.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = NitroCalendarAutolinking.mm; sourceTree = "<group>"; };
+		45058B9D2DB1FCBE001CE5E9 /* NitroCalendarAutolinking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NitroCalendarAutolinking.swift; sourceTree = "<group>"; };
+		45058B9F2DB1FCBE001CE5E9 /* HybridCalendarComponent.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HybridCalendarComponent.hpp; sourceTree = "<group>"; };
+		45058BA02DB1FCBE001CE5E9 /* HybridCalendarComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HybridCalendarComponent.cpp; sourceTree = "<group>"; };
+		45058BA22DB1FCBE001CE5E9 /* ColorScheme.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ColorScheme.hpp; sourceTree = "<group>"; };
+		45058BA32DB1FCBE001CE5E9 /* HybridCalendarSpec.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HybridCalendarSpec.hpp; sourceTree = "<group>"; };
+		45058BA42DB1FCBE001CE5E9 /* HybridCalendarSpec.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HybridCalendarSpec.cpp; sourceTree = "<group>"; };
+		45058BA62DB1FCBE001CE5E9 /* CalendarConfig.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CalendarConfig.json; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-RNSwiftCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNSwiftCalendar.release.xcconfig"; path = "Target Support Files/Pods-RNSwiftCalendar/Pods-RNSwiftCalendar.release.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-RNSwiftCalendar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNSwiftCalendar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = RNSwiftCalendar/AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +76,9 @@
 		13B07FAE1A68108700A75B9A /* RNSwiftCalendar */ = {
 			isa = PBXGroup;
 			children = (
+				45058B9E2DB1FCBE001CE5E9 /* ios */,
+				45058BA82DB1FCBE001CE5E9 /* shared */,
+				45058B8B2DB1F4DD001CE5E9 /* NitroCalendar */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				761780EC2CA45674006654EE /* AppDelegate.swift */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
@@ -58,6 +95,95 @@
 				5DCACB8F33CDC322A6C60F78 /* libPods-RNSwiftCalendar.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45058B8B2DB1F4DD001CE5E9 /* NitroCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				45058B8C2DB1F554001CE5E9 /* HybridCalendar.swift */,
+			);
+			path = NitroCalendar;
+			sourceTree = "<group>";
+		};
+		45058B8F2DB1FCBE001CE5E9 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				45058B8E2DB1FCBE001CE5E9 /* HybridCalendarComponent.mm */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		45058B922DB1FCBE001CE5E9 /* c++ */ = {
+			isa = PBXGroup;
+			children = (
+				45058B8F2DB1FCBE001CE5E9 /* views */,
+				45058B902DB1FCBE001CE5E9 /* HybridCalendarSpecSwift.hpp */,
+				45058B912DB1FCBE001CE5E9 /* HybridCalendarSpecSwift.cpp */,
+			);
+			path = "c++";
+			sourceTree = "<group>";
+		};
+		45058B972DB1FCBE001CE5E9 /* swift */ = {
+			isa = PBXGroup;
+			children = (
+				45058B932DB1FCBE001CE5E9 /* ColorScheme.swift */,
+				45058B942DB1FCBE001CE5E9 /* Func_void.swift */,
+				45058B952DB1FCBE001CE5E9 /* HybridCalendarSpec.swift */,
+				45058B962DB1FCBE001CE5E9 /* HybridCalendarSpec_cxx.swift */,
+			);
+			path = swift;
+			sourceTree = "<group>";
+		};
+		45058B9E2DB1FCBE001CE5E9 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				45058B922DB1FCBE001CE5E9 /* c++ */,
+				45058B972DB1FCBE001CE5E9 /* swift */,
+				45058B982DB1FCBE001CE5E9 /* NitroCalendar-Swift-Cxx-Bridge.hpp */,
+				45058B992DB1FCBE001CE5E9 /* NitroCalendar-Swift-Cxx-Bridge.cpp */,
+				45058B9A2DB1FCBE001CE5E9 /* NitroCalendar-Swift-Cxx-Umbrella.hpp */,
+				45058B9B2DB1FCBE001CE5E9 /* NitroCalendar+autolinking.rb */,
+				45058B9C2DB1FCBE001CE5E9 /* NitroCalendarAutolinking.mm */,
+				45058B9D2DB1FCBE001CE5E9 /* NitroCalendarAutolinking.swift */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		45058BA12DB1FCBE001CE5E9 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				45058B9F2DB1FCBE001CE5E9 /* HybridCalendarComponent.hpp */,
+				45058BA02DB1FCBE001CE5E9 /* HybridCalendarComponent.cpp */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		45058BA52DB1FCBE001CE5E9 /* c++ */ = {
+			isa = PBXGroup;
+			children = (
+				45058BA12DB1FCBE001CE5E9 /* views */,
+				45058BA22DB1FCBE001CE5E9 /* ColorScheme.hpp */,
+				45058BA32DB1FCBE001CE5E9 /* HybridCalendarSpec.hpp */,
+				45058BA42DB1FCBE001CE5E9 /* HybridCalendarSpec.cpp */,
+			);
+			path = "c++";
+			sourceTree = "<group>";
+		};
+		45058BA72DB1FCBE001CE5E9 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				45058BA62DB1FCBE001CE5E9 /* CalendarConfig.json */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
+		45058BA82DB1FCBE001CE5E9 /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				45058BA52DB1FCBE001CE5E9 /* c++ */,
+				45058BA72DB1FCBE001CE5E9 /* json */,
+			);
+			path = shared;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -161,6 +287,8 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				C8243C88DDB129D085790AA1 /* PrivacyInfo.xcprivacy in Resources */,
+				45058BA92DB1FCBE001CE5E9 /* NitroCalendar+autolinking.rb in Resources */,
+				45058BAA2DB1FCBE001CE5E9 /* CalendarConfig.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +375,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				761780ED2CA45674006654EE /* AppDelegate.swift in Sources */,
+				45058B8D2DB1F554001CE5E9 /* HybridCalendar.swift in Sources */,
+				45058BAB2DB1FCBE001CE5E9 /* HybridCalendarSpecSwift.cpp in Sources */,
+				45058BAC2DB1FCBE001CE5E9 /* NitroCalendar-Swift-Cxx-Bridge.cpp in Sources */,
+				45058BAD2DB1FCBE001CE5E9 /* HybridCalendarComponent.cpp in Sources */,
+				45058BAE2DB1FCBE001CE5E9 /* HybridCalendarSpec_cxx.swift in Sources */,
+				45058BAF2DB1FCBE001CE5E9 /* HybridCalendarComponent.mm in Sources */,
+				45058BB02DB1FCBE001CE5E9 /* NitroCalendarAutolinking.swift in Sources */,
+				45058BB12DB1FCBE001CE5E9 /* HybridCalendarSpec.cpp in Sources */,
+				45058BB22DB1FCBE001CE5E9 /* Func_void.swift in Sources */,
+				45058BB32DB1FCBE001CE5E9 /* HybridCalendarSpec.swift in Sources */,
+				45058BB42DB1FCBE001CE5E9 /* NitroCalendarAutolinking.mm in Sources */,
+				45058BB52DB1FCBE001CE5E9 /* ColorScheme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +402,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = RNSwiftCalendar/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -275,6 +415,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RNSwiftCalendar;
+				SWIFT_OBJC_INTEROP_MODE = objc;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -289,7 +430,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = RNSwiftCalendar/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,6 +443,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RNSwiftCalendar;
+				SWIFT_OBJC_INTEROP_MODE = objc;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -376,10 +518,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
@@ -448,10 +587,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
